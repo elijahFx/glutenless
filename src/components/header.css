@@ -1,0 +1,33 @@
+.header {
+    width: 100vw;
+    height: 15vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60%;
+}
+
+
+img {
+    width: 20vw;
+    height: 20vh;
+    cursor: pointer;
+}
+
+.header a {
+    height: 20vh;
+    width: 20vw;
+}
+
+.menu {
+    height: 25%;
+    width: 25%;
+    fill: black;
+    transition: 0.5s;
+}
+
+.menu:hover {
+    filter: invert(20%) sepia(80%) saturate(3637%) hue-rotate(346deg) brightness(110%) contrast(78%);
+    transition: 0.5s;
+}
